@@ -17,7 +17,6 @@ touch dir2/empty
 # создаём файл task/dir2/hello.sh с таким содержанием:
 # #!/bin/bash
 # echo "$1, привет!" 
-
 # В эталоне было "Всем студентам, привет!" поэтому я тут отошёл от комментария и изменил $1 на $NAME
 touch dir2/hello.sh
 echo '#!/bin/bash' > dir2/hello.sh
