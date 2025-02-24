@@ -19,6 +19,7 @@ touch dir2/empty
 # echo "$1, привет!" 
 
 # В эталоне было "Всем студентам, привет!" поэтому я тут отошёл от комментария и изменил $1 на $NAME
+
 touch dir2/hello.sh
 echo '#!/bin/bash' > dir2/hello.sh
 echo 'echo "$NAME, привет!"' >> dir2/hello.sh
